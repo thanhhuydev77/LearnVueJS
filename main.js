@@ -18,9 +18,3 @@ var vueInstance = new Vue({
         }
     }
 });
-
-console.log(vueInstance)
-
-setTimeout(() => {
-    vueInstance.title2 = 'aaaa'
-}, 300);
